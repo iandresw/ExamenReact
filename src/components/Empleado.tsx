@@ -74,8 +74,8 @@ const Empleado= () =>{
                 <div className="modal-body">
                  <Entrada id={"nombre"}  iconName={"fa-solid fa-person"}  inputType={"text"}  placeholder={"Nombre Empleado"}  onChange={(e)=>setNombre(e.target.value)} value={nombre}></Entrada>
                  <Entrada id={"dni"} iconName={"fa-solid fa-comment"} inputType={"text"} placeholder={"DNI Empleado"} onChange={(e)=>setDni(e.target.value)} value={dni} ></Entrada>
-                 <Entrada id={"direccion"} iconName={"fa-solid fa-location"} inputType={"text"} placeholder={"Direccion"} onChange={(e)=>SetDireccion(e.target.value)} value={direccion} ></Entrada>
-                 <Entrada id={"email"} iconName={"fa-solid fa-message"} inputType={"text"} placeholder={"Email Empleado"} onChange={(e)=>setEmail(e.target.value)} value={email} ></Entrada>
+                 <Entrada id={"direccion"} iconName={"fa-solid fa-location-dot"} inputType={"text"} placeholder={"Direccion"} onChange={(e)=>SetDireccion(e.target.value)} value={direccion} ></Entrada>
+                 <Entrada id={"email"} iconName={"fa-solid fa-envelope"} inputType={"text"} placeholder={"Email Empleado"} onChange={(e)=>setEmail(e.target.value)} value={email} ></Entrada>
                 </div>
                 <div className="modal-footer">
                    <button className="btn btn-success" onClick={()=>guardarEditarEmpleado()} >
